@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Converter converter = new Converter();
         String str;
-        System.out.println("Выберите пункт\n1. Перевод валюты ($->RUB)\n2. Перевод валюты (RUB->$)\n3. Сложение\n4. Вычитание");
+        System.out.println("Выберите пункт\n1. Перевод валюты ($->RUB)\n2. Перевод валюты (RUB->$)\n3. Сложение\n4. Вычитанtие");
         switch (scanner.nextInt()){
             case 1: System.out.println("Введите сумму в $");
             str = String.format("%.2f",converter.toRubles(scanner.nextDouble()));
