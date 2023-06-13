@@ -7,8 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException, ParseException {
         Scanner scanner = new Scanner(System.in);
         Converter converter = new Converter();
-        int ch1, ch2;
-        String str = "";
+        String str;
         System.out.println("Выберите пункт\n1. Перевод валюты ($->RUB)\n2. Перевод валюты (RUB->$)\n3. Сложение\n4. Вычитание");
         switch (scanner.nextInt()){
             case 1: System.out.println("Введите сумму в $");
@@ -44,6 +43,9 @@ public class Main {
                     System.out.print(str+"p");
                 }
                 break;
+
+                default: System.out.print("Введите верное значение");
+                    break;
             }
             break;
 
@@ -82,9 +84,14 @@ public class Main {
                             System.out.print(str+"p");
                         }
                         break;
+
+                    default: System.out.print("Введите верное значение");
+                        break;
                 }
                 break;
-            default: break;
+
+            default: System.out.print("Введите верное значение");
+                break;
         }
     }
 }
