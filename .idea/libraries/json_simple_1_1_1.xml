@@ -1,8 +1,7 @@
 <component name="libraryTable">
   <library name="json-simple-1.1.1">
     <CLASSES>
-      <root url="jar://D:/IntelliJ IDEA 2020.1/lib/json-simple-1.1.1.jar!/" />
-      <root url="jar://D:/IntelliJ IDEA 2020.1/lib/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../IntelliJ IDEA 2020.1/json-simple-1.1.1.jar/json-simple-1.1.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
